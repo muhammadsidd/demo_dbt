@@ -1,0 +1,28 @@
+
+
+============================== 2023-01-18 19:31:16.973499 | 2ab8089e-531d-43e9-b31f-72b1fdf882ab ==============================
+[0m19:31:16.973499 [info ] [MainThread]: Running with dbt=1.3.2
+[0m19:31:16.974738 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': 'C:\\Users\\muhaSiddiqui\\.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'cache_selected_only': False, 'skip_profile_setup': False, 'which': 'init', 'indirect_selection': 'eager'}
+[0m19:31:16.974738 [debug] [MainThread]: Tracking: tracking
+[0m19:31:17.181662 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018CFFD36160>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018CFFD36550>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018CFFD363A0>]}
+[0m19:31:17.182661 [info ] [MainThread]: Creating dbt configuration folder at C:\Users\muhaSiddiqui\.dbt
+[0m19:32:20.529053 [debug] [MainThread]: Starter project path: C:\Users\muhaSiddiqui\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\dbt\include\starter_project
+[0m19:33:33.164087 [info ] [MainThread]: Profile dbt_demo written to C:\Users\muhaSiddiqui\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m19:33:33.165087 [info ] [MainThread]: 
+Your new dbt project "dbt_demo" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m19:33:33.166087 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018CFFD342E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018CFFD34F40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018CFFD34C40>]}
+[0m19:33:33.166087 [debug] [MainThread]: Flushing usage events
